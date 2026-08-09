@@ -1,4 +1,4 @@
 [core]
-    remote = myremote
-['remote "myremote"']
-    url = C:\Users\kushs\AppData\Local\Temp
+    remote = dvcstore
+['remote "dvcstore"']
+    url = s3://kush-mini-bucket
