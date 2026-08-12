@@ -21,4 +21,5 @@ jobs:
 
       - name: run pipeline
         run: |
+          dvc pull
           dvc repro
