@@ -89,4 +89,4 @@ jobs:
             docker stop my-app || true
             docker rm my-app || true
 
-            docker run -d -p 8888:5000 -e DAGSHUB_PAT=695bde92e67ebc58023b09eb1f17c9dd9217ed70 --name my-app 010741811296.dkr.ecr.eu-north-1.amazonaws.com/kush_ecr:v1
+            docker run -d -p 80:5000 -e DAGSHUB_PAT=695bde92e67ebc58023b09eb1f17c9dd9217ed70 --name my-app 010741811296.dkr.ecr.eu-north-1.amazonaws.com/kush_ecr:v1
